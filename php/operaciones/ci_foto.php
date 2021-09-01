@@ -10,6 +10,8 @@ class ci_foto extends leanInicial_ci
 
 	function evt__foto_frm__alta($datos)
 	{
+		//declaro una variable para el archivo a modificar
+		
 		//delcaro el nombre de la variable a guardar
 		$foto_guardar = "";
 		//declaro la variable a trabajar sobre el archivo temporarl
@@ -56,7 +58,7 @@ class ci_foto extends leanInicial_ci
 		if (move_uploaded_file($foto_tmp, $foto_guardar)) {
 			echo 'cargo';				
 
-			$datos["foto"]=$foto_guardar;
+
 			$this->dep('datos')->nueva_fila($datos);
 			$this->dep('datos')->sincronizar();
 			$this->dep('datos')->resetear();

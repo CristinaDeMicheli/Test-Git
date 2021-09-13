@@ -29,7 +29,11 @@
 			return toba::db()->consultar($sql);
 		}
 
-	
+	/*agregue un comentario*/
+	public function hola(){
+		echo "hola";
+		echo "esto es una prueba del torotise";
+	}
 
 	function get_genero(){
 			$sql = ('SELECT

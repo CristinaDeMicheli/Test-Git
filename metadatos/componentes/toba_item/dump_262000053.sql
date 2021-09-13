@@ -1,5 +1,5 @@
 ------------------------------------------------------------
---[262000042]--  Prestamos 
+--[262000053]--  Foto 
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -10,26 +10,26 @@
 INSERT INTO apex_item (item_id, proyecto, item, padre_id, padre_proyecto, padre, carpeta, nivel_acceso, solicitud_tipo, pagina_tipo_proyecto, pagina_tipo, actividad_buffer_proyecto, actividad_buffer, actividad_patron_proyecto, actividad_patron, nombre, descripcion, punto_montaje, actividad_accion, menu, orden, solicitud_registrar, solicitud_obs_tipo_proyecto, solicitud_obs_tipo, solicitud_observacion, solicitud_registrar_cron, prueba_directorios, zona_proyecto, zona, zona_orden, zona_listar, imagen_recurso_origen, imagen, parametro_a, parametro_b, parametro_c, publico, redirecciona, usuario, exportable, creacion, retrasar_headers) VALUES (
 	NULL, --item_id
 	'leanInicial', --proyecto
-	'262000042', --item
+	'262000053', --item
 	NULL, --padre_id
 	'leanInicial', --padre_proyecto
 	'1', --padre
-	'1', --carpeta
+	'0', --carpeta
 	'0', --nivel_acceso
-	NULL, --solicitud_tipo
-	NULL, --pagina_tipo_proyecto
-	NULL, --pagina_tipo
+	'web', --solicitud_tipo
+	'toba', --pagina_tipo_proyecto
+	'normal', --pagina_tipo
 	NULL, --actividad_buffer_proyecto
 	NULL, --actividad_buffer
 	NULL, --actividad_patron_proyecto
 	NULL, --actividad_patron
-	'Prestamos', --nombre
+	'Foto', --nombre
 	NULL, --descripcion
-	NULL, --punto_montaje
+	'263000002', --punto_montaje
 	NULL, --actividad_accion
-	'0', --menu
+	'1', --menu
 	NULL, --orden
-	NULL, --solicitud_registrar
+	'0', --solicitud_registrar
 	NULL, --solicitud_obs_tipo_proyecto
 	NULL, --solicitud_obs_tipo
 	NULL, --solicitud_observacion
@@ -38,17 +38,29 @@ INSERT INTO apex_item (item_id, proyecto, item, padre_id, padre_proyecto, padre,
 	NULL, --zona_proyecto
 	NULL, --zona
 	NULL, --zona_orden
-	NULL, --zona_listar
+	'0', --zona_listar
 	'apex', --imagen_recurso_origen
-	'editable.gif', --imagen
+	NULL, --imagen
 	NULL, --parametro_a
 	NULL, --parametro_b
 	NULL, --parametro_c
-	NULL, --publico
+	'0', --publico
 	NULL, --redirecciona
 	NULL, --usuario
-	NULL, --exportable
-	'2021-07-22 12:19:50', --creacion
+	'0', --exportable
+	'2021-08-18 12:12:38', --creacion
 	'0'  --retrasar_headers
 );
 --- FIN Grupo de desarrollo 262
+
+------------------------------------------------------------
+-- apex_item_objeto
+------------------------------------------------------------
+INSERT INTO apex_item_objeto (item_id, proyecto, item, objeto, orden, inicializar) VALUES (
+	NULL, --item_id
+	'leanInicial', --proyecto
+	'262000053', --item
+	'262000097', --objeto
+	'0', --orden
+	NULL  --inicializar
+);

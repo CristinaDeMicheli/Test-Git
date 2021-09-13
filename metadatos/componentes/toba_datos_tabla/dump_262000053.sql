@@ -214,7 +214,7 @@ INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, colum
 	'262000053', --objeto
 	'262000056', --col_id
 	'id_sexo', --columna
-	'E', --tipo
+	'N', --tipo
 	'0', --pk
 	'', --secuencia
 	NULL, --largo

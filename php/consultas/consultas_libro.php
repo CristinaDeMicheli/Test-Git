@@ -34,6 +34,13 @@
 		echo "hola";
 		echo "esto es una prueba del torotise";
 	}
+	function hola2(){
+		echo "hola";
+		echo "prueba";
+		echo "prueba";
+		echo "prueba";
+	}
+
 
 	function get_genero(){
 			$sql = ('SELECT

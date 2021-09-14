@@ -12,6 +12,7 @@
 				t_l.estante,
 				t_l.anio,
 				t_l.isbn,
+				t_l.foto,
 				t_ad.descripcion as id_adquisicion_descripcion,
 				t_es.descripcion as id_estado_nombre
 				FROM
@@ -27,6 +28,13 @@
 
 			return toba::db()->consultar($sql);
 		}
+
+	/*agregue un comentario*/
+	public function hola(){
+		echo "hola";
+		echo "esto es una prueba del torotise";
+	}
+
 	function get_genero(){
 			$sql = ('SELECT
 				t_g.id_genero as valor,

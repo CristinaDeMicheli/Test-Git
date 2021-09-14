@@ -121,4 +121,28 @@ INSERT INTO apex_usuario_grupo_acc_item (proyecto, usuario_grupo_acc, item_id, i
 	NULL, --item_id
 	'262000049'  --item
 );
+INSERT INTO apex_usuario_grupo_acc_item (proyecto, usuario_grupo_acc, item_id, item) VALUES (
+	'leanInicial', --proyecto
+	'admin', --usuario_grupo_acc
+	NULL, --item_id
+	'262000050'  --item
+);
+INSERT INTO apex_usuario_grupo_acc_item (proyecto, usuario_grupo_acc, item_id, item) VALUES (
+	'leanInicial', --proyecto
+	'admin', --usuario_grupo_acc
+	NULL, --item_id
+	'262000051'  --item
+);
+INSERT INTO apex_usuario_grupo_acc_item (proyecto, usuario_grupo_acc, item_id, item) VALUES (
+	'leanInicial', --proyecto
+	'admin', --usuario_grupo_acc
+	NULL, --item_id
+	'262000052'  --item
+);
+INSERT INTO apex_usuario_grupo_acc_item (proyecto, usuario_grupo_acc, item_id, item) VALUES (
+	'leanInicial', --proyecto
+	'admin', --usuario_grupo_acc
+	NULL, --item_id
+	'262000053'  --item
+);
 --- FIN Grupo de desarrollo 262

@@ -366,7 +366,7 @@ INSERT INTO apex_objeto_ei_filtro_col (objeto_ei_filtro_col, objeto_ei_filtro, o
 	'leanInicial', --objeto_ei_filtro_proyecto
 	'fecha', --tipo
 	'fecha2', --nombre
-	'pres.fecha_alta', --expresion
+	'pres.fecha_venc', --expresion
 	'Fecha Vencimiento', --etiqueta
 	NULL, --descripcion
 	'0', --obligatorio

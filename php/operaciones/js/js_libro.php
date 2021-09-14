@@ -13,6 +13,7 @@ class js_libro extends leanInicial_ei_formulario
 		$this->generar_html_ef('adquicision_id');
 		$this->generar_html_ef('isbn');
 		$this->generar_html_ef('anio');
+		$this->generar_html_ef('imagen');
 	}
 
 

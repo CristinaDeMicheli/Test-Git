@@ -40,6 +40,12 @@
 		echo "prueba";
 		echo "prueba";
 	}
+	function hola3(){
+		echo "hola";
+		echo "prueba";
+		echo "prueba";
+		echo "prueba";
+	}
 
 
 	function get_genero(){

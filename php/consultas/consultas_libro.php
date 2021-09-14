@@ -35,6 +35,10 @@
 		echo "esto es una prueba del torotise";
 	}
 
+	public function hola6(){
+		echo "hola";
+		echo "esto es una prueba del torotise";
+	}
 	function get_genero(){
 			$sql = ('SELECT
 				t_g.id_genero as valor,

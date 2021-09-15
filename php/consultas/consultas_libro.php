@@ -44,7 +44,7 @@
 
 	public function chau2(){
 		echo "chau";
-
+}
 	public function fecha(){
 		echo "Hoy es Miercoles";
 

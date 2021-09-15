@@ -41,6 +41,10 @@
 	public function chau(){
 		echo "chau";
 	}
+
+	public function chau2(){
+		echo "chau";
+}
 	public function fecha(){
 		
 

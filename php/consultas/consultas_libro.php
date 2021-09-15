@@ -32,25 +32,6 @@
 	/*agregue un comentario*/
 	public function hola(){
 		echo "hola";
-		echo "esto es una prueba del torotise";
-	}
-	function hola2(){
-		echo "hola";
-		echo "prueba";
-		echo "prueba";
-		echo "prueba";
-	}
-	function hola3(){
-		echo "hola";
-		echo "prueba";
-		echo "prueba";
-		echo "prueba";
-	}
-
-
-	public function hola6(){
-		echo "hola";
-		echo "esto es una prueba del torotise";
 	}
 	function get_genero(){
 			$sql = ('SELECT

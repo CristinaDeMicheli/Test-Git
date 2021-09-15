@@ -37,6 +37,10 @@
 	public function hellow(){
 		echo "hellow";
 	}
+
+	public function chau(){
+		echo "chau";
+	}
 	function get_genero(){
 			$sql = ('SELECT
 				t_g.id_genero as valor,

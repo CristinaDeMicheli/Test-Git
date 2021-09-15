@@ -46,8 +46,7 @@
 		echo "chau";
 }
 	public function fecha(){
-		
-
+		//esto es lo nuevo
 $DateAndTime = date('m-d-Y h:i:s a', time());  
 
 echo "Hoy es Miercoles  $DateAndTime.";

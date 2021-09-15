@@ -33,8 +33,9 @@
 	public function hola(){
 		echo "hola";
 	}
-	public function hola1(){
-		echo "hola";
+
+	public function hellow(){
+		echo "hellow";
 	}
 	function get_genero(){
 			$sql = ('SELECT

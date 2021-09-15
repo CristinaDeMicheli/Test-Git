@@ -30,6 +30,15 @@ INSERT INTO apex_usuario_grupo_acc_item (proyecto, usuario_grupo_acc, item_id, i
 );
 --- FIN Grupo de desarrollo 0
 
+--- INICIO Grupo de desarrollo 260
+INSERT INTO apex_usuario_grupo_acc_item (proyecto, usuario_grupo_acc, item_id, item) VALUES (
+	'leanInicial', --proyecto
+	'admin', --usuario_grupo_acc
+	NULL, --item_id
+	'260000098'  --item
+);
+--- FIN Grupo de desarrollo 260
+
 --- INICIO Grupo de desarrollo 262
 INSERT INTO apex_usuario_grupo_acc_item (proyecto, usuario_grupo_acc, item_id, item) VALUES (
 	'leanInicial', --proyecto

@@ -33,6 +33,9 @@
 	public function hola(){
 		echo "hola";
 	}
+	public function hola1(){
+		echo "hola";
+	}
 	function get_genero(){
 			$sql = ('SELECT
 				t_g.id_genero as valor,

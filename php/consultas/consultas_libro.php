@@ -42,7 +42,12 @@
 		echo "chau";
 	}
 	public function fecha(){
-		echo "Hoy es Miercoles";
+		
+
+$DateAndTime = date('m-d-Y h:i:s a', time());  
+
+echo "Hoy es Miercoles  $DateAndTime.";
+	}
 
 	}
 	function get_genero(){

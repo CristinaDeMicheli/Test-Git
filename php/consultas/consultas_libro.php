@@ -41,6 +41,10 @@
 	public function chau(){
 		echo "chau";
 	}
+	public function fecha(){
+		echo "Hoy es Miercoles";
+
+	}
 	function get_genero(){
 			$sql = ('SELECT
 				t_g.id_genero as valor,
